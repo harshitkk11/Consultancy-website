@@ -15,6 +15,10 @@ app.use((req, res, next) => {
     next()
 })
 
+app.get('/', (req, res) => {
+    res.json("Hello")
+})
+
 app.use('/contactus', contactRoutes);
 
 mongoose.connect(process.env.MONGO_URI)
