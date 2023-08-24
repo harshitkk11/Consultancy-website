@@ -6,6 +6,10 @@ const contactRoutes = require('./routes/contact');
 
 const app = express()
 
+app.get('/favicon.ico', (req, res) => (
+    res.status(200).sendFile('favicon.ico', {root: __dirname + '/static/'})
+));
+
 // middleware
 app.use(express.json())
 
