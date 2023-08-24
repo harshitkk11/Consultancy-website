@@ -2,6 +2,7 @@ import ReactTyped from "react-typed";
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
+import { Link } from "@mui/material"
 import img1 from "../assets/images/Business-stratagy.webp"
 import img2 from "../assets/images/digi-trans.webp"
 import img3 from "../assets/images/fin-ad.png"
@@ -139,6 +140,12 @@ function Home() {
                     </div>
                 </div>
 
+                <div className="last-container">
+                    <Link href="/">
+                    <img src={img7} className="img7" alt="Contact us" />
+                    </Link>
+                </div>
+
 {/* Services */}
 
                 <div className="services">
@@ -231,10 +238,6 @@ function Home() {
                         <p>Transform challenges into opportunities with <strong>InnovateWeb Advisors</strong>. 
                             Your success story begins here.</p>
                     </div>
-                </div>
-
-                <div className="last-container">
-                    <img src={img7} className="img7" alt="Contact us" />
                 </div>
             </div>
         </main>
