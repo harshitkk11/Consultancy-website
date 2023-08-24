@@ -1,0 +1,72 @@
+.form {
+    padding-top: 100px;
+    width: 100%;
+    height: 1000px;
+    background: #6a0080;
+}
+
+.contact-form{
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 2px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 50%;
+    padding: 40px;
+    /* margin-left: 23%;
+    margin-top: 40px; */
+    text-align: center;
+}
+
+h1{
+    margin: 30px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+}
+
+label{
+    font-size: 17px;
+    margin-bottom: 10px;
+    align-self: self-start;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 10px;
+    background: #e6e6e6;
+}
+
+input:focus {
+    background: white;
+    box-shadow: 0 0 10px white;
+}
+.send {
+    margin: 20px;
+}
+
+.send button{
+    width: 250px;
+    font-size: 17px;
+    padding: 8px;
+    align-items: end;
+    border: 0;
+    border-radius: 10px;;
+    background: #4f4f53;
+    color: white;
+}

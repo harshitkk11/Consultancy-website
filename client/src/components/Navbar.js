@@ -30,7 +30,7 @@ function Navbar() {
                         <NavLink to="/about">About</NavLink>
                         </li>
                         <li>
-                        <NavLink to="/contact">Contact</NavLink>
+                        <NavLink to="/contactus">Contact</NavLink>
                         </li>
                     </ul>
                 </div>

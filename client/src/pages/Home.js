@@ -1,4 +1,5 @@
 import ReactTyped from "react-typed";
+import { useNavigate } from "react-router-dom"
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
@@ -17,9 +18,11 @@ import icon3 from "../assets/images/public-relations.png"
 import icon4 from "../assets/images/financial-advisor.png"
 import icon5 from "../assets/images/consultation.png"
 import icon6 from "../assets/images/analysis.png"
+// import ContactusForm from "../components/ContactusForm";
 
 function Home() {
-
+    
+    const navigate = useNavigate()
 
     const theme = createTheme({
         palette: {
@@ -45,6 +48,10 @@ function Home() {
         border: "1px solid white", 
         boxShadow: "0 0 10px #ffffff"
     }));
+
+    const handleClick = () => {
+        navigate("/Contactus")
+    }
 
 
 
@@ -79,10 +86,10 @@ function Home() {
                     <div className="request-button">
                     <ThemeProvider theme={theme}>
                         <Stack spacing={4} direction="row">
-                            <StyledButton variant="outlined" color="primary">
+                            <StyledButton variant="outlined" color="primary" onClick={handleClick}>
                                 GET IN TOUCH
                             </StyledButton>
-                            <StyledButton variant="outlined" color="primary">
+                            <StyledButton variant="outlined" color="primary" onClick={handleClick}>
                                 REQUEST A QUOTE
                             </StyledButton>
                         </Stack>
@@ -141,7 +148,7 @@ function Home() {
                 </div>
 
                 <div className="last-container">
-                    <Link href="/">
+                    <Link onClick={handleClick}>
                     <img src={img7} className="img7" alt="Contact us" />
                     </Link>
                 </div>
@@ -229,7 +236,7 @@ function Home() {
                     </div>
 
                     <div className="contact-button">
-                        <StyledButton variant="contained" color="primary" size="large" >
+                        <StyledButton variant="contained" color="primary" size="large" onClick={handleClick}>
                                 CONTACT US
                         </StyledButton>
                     </div>

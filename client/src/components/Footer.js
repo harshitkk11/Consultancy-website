@@ -55,7 +55,7 @@ function Footer(){
                             </li>
                             {/* <li><hr/></li> */}
                             <li>
-                            <a href="/contact">Contact</a>
+                            <a href="/contactus">Contact</a>
                             </li>
                         </ul>
                     </div>

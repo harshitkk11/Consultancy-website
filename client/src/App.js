@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ContactusForm from './pages/ContactusForm';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
             <Route
             path='/'
             element={<Home/>}
+            />
+            <Route
+            path='/contactus'
+            element={<ContactusForm/>}
             />
           </Routes>
         </div>
