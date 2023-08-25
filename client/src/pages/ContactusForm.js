@@ -14,7 +14,7 @@ function ContactusForm() {
 
         const details = {name, company_name, email, phone, msg}
 
-        const response = await fetch('/contactus', {
+        const response = await fetch('https://consultancy-website-backend.onrender.com/contactus', {
             method: 'POST',
             body: JSON.stringify(details),
             headers: {

@@ -18,7 +18,6 @@ import icon3 from "../assets/images/public-relations.png"
 import icon4 from "../assets/images/financial-advisor.png"
 import icon5 from "../assets/images/consultation.png"
 import icon6 from "../assets/images/analysis.png"
-// import ContactusForm from "../components/ContactusForm";
 
 function Home() {
     
