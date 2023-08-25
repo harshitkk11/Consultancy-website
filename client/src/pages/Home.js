@@ -156,56 +156,43 @@ function Home() {
 {/* Services */}
 
                 <div className="services">
-                <div className="container-heading">Our Services</div>
+                <div className="container-heading">Why Choose InnovateWeb Advisors?</div>
                     <div className="flex-container">
                         <div className="item1">
                             <img src={img1} className="img1" alt="Business Strategy Consulting"/>
                             <div className="item-content">
-                                <h3>Business Strategy Consulting</h3>
-                                <p>Crafting a winning business strategy is the foundation of success. 
-                                    Our consultants work closely with you to analyze market trends, 
-                                    competition, and opportunities, helping you define a clear and 
-                                    actionable strategy that aligns with your objectives.</p>
+                                <h3>Experienced Consultants</h3>
+                                <p>Our team consists of industry veterans with a proven track record of delivering results.</p>
                             </div>
                         </div>
 
                         <div className="item2">
                             <div className="item-content">
-                                <h3>Digital Transformation</h3>
-                                <p>Embrace the digital age with confidence. 
-                                    Our experts guide you through the process of digital transformation, 
-                                    from technology integration to optimizing customer experiences, 
-                                    ensuring your business remains competitive in the digital landscape.
-                                    </p>
+                                <h3>Tailored Solutions</h3>
+                                <p>We understand that every business is unique. Our solutions are customized to address your specific challenges and opportunities.</p>
                             </div>
                             <img src={img2} className="img2" alt="Digital Transformation" />
                         </div>
                         <div className="item3">
                             <img src={img3} className="img3" alt="Financial Advisory" />
                             <div className="item-content">
-                                <h3>Financial Advisory</h3>
-                                <p>Unlock the full potential of your financial resources. 
-                                    Our financial consultants offer insights into managing budgets, 
-                                    making smart investments, and improving overall financial health, 
-                                     while minimizing risks.
-
+                                <h3>Client-Centric Approach</h3>
+                                <p>Your success is our top priority. We work collaboratively, keeping you informed and involved throughout the consulting process.
                                 </p>
                             </div>
                         </div>
                         <div className="item4">
                             <div className="item-content">
-                            <h3>Marketing and Branding</h3>
-                                <p>Stand out in a crowded marketplace. We help you create compelling brand stories, develop effective marketing campaigns, and establish a strong online presence to attract and retain customers.
-                                </p>
+                            <h3>Innovation and Adaptability</h3>
+                                <p>The business landscape evolves rapidly. We stay ahead of the curve, offering innovative strategies that adapt to changing market conditions.</p>
                             </div>
                             <img src={img4} className="img4" alt="Marketing and Branding" />
                         </div>
                         <div className="item5">
                             <img src={img5} className="img5" alt="Human Resources Consulting" />
                             <div className="item-content">
-                            <h3>Human Resources Consulting</h3>
-                                <p>Your people are your greatest asset. Our HR consultants assist you in building a motivated workforce, from talent acquisition and development to performance management and employee engagement strategies.
-                                </p>
+                            <h3>Proven Results</h3>
+                                <p>Our portfolio is filled with success stories of clients who have achieved significant growth and transformation with our guidance.</p>
                             </div>
                         </div>
                         <div className="item6">
