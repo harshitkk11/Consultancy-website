@@ -96,7 +96,9 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="second-container">
+{/* second container */}
+
+                <div className="second-container" id="second-container">
                     <div className="container-heading">Our Services</div>
                     <div className="card-container">
                         <Card 
@@ -146,15 +148,15 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="last-container">
+                <div className="contactus-gif">
                     <Link onClick={handleClick}>
                     <img src={img7} className="img7" alt="Contact us" />
                     </Link>
                 </div>
 
-{/* Services */}
+{/* third container */}
 
-                <div className="services">
+                <div className="third-container">
                 <div className="container-heading">Why Choose InnovateWeb Advisors?</div>
                     <div className="flex-container">
                         <div className="item1">
@@ -205,6 +207,8 @@ function Home() {
                     </div>
                 </div>
 
+
+{/* Fourth container */}
 
                 <div className="forth-container">
                     <div className="container-heading">
