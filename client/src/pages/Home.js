@@ -3,14 +3,14 @@ import { useNavigate } from "react-router-dom"
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
-import { Link } from "@mui/material"
+// import { Link } from "@mui/material"
 import img1 from "../assets/images/Business-stratagy.webp"
 import img2 from "../assets/images/digi-trans.webp"
 import img3 from "../assets/images/fin-ad.png"
 import img4 from "../assets/images/branding.png"
 import img5 from "../assets/images/hr.png"
 import img6 from "../assets/images/dat.webp"
-import img7 from "../assets/images/contactus.gif"
+// import img7 from "../assets/images/contactus.gif"
 import Card from "../components/Card"
 import icon1 from "../assets/images/sales-team.png"
 import icon2 from "../assets/images/transformation.png"
@@ -148,12 +148,6 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="contactus-gif">
-                    <Link onClick={handleClick}>
-                    <img src={img7} className="img7" alt="Contact us" />
-                    </Link>
-                </div>
-
 {/* third container */}
 
                 <div className="third-container">
@@ -206,6 +200,12 @@ function Home() {
                         </div>
                     </div>
                 </div>
+
+                {/* <div className="contactus-gif">
+                    <Link onClick={handleClick}>
+                    <img src={img7} className="img7" alt="Contact us" />
+                    </Link>
+                </div> */}
 
 
 {/* Fourth container */}
