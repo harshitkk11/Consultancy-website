@@ -41,6 +41,7 @@ img {
 
 .card-content p {
     margin: 20px 0 0 0;
+    font-size: 15px;
 }
 
 .Link {
@@ -72,9 +73,9 @@ img {
         font-weight: 400;
     }
     
-    .card-content p {
+    /* .card-content p {
         margin: 20px 0 0 0;
-    }
+    } */
 }
 
 @media (max-width: 369px) {
@@ -87,9 +88,9 @@ img {
         font-weight: 400;
     }
     
-    .card-content p {
+    /* .card-content p {
         margin: 20px 0 0 0;
         font-size: 15px;
-    }
+    } */
 
 }
