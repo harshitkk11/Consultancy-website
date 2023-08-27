@@ -89,7 +89,7 @@ function ContactusForm() {
                 </div>
 
                 <div className="send">
-                    <button>Send</button>
+                    <input type="submit" value="Send" className="submit"/>
                 </div>
             </form>
         </div>
