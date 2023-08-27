@@ -52,6 +52,7 @@ function ContactusForm() {
                     type="text"
                     id="name"
                     required
+                    autoComplete="name"
                     disabled={click}
                     onChange={(e) => setName(e.target.value)}
                     value={name}
@@ -64,6 +65,7 @@ function ContactusForm() {
                     type="text"
                     id="company_name"
                     required
+                    autoComplete="organization"
                     disabled={click}
                     onChange={(e) => setCompany_name(e.target.value)}
                     value={company_name}
@@ -76,6 +78,7 @@ function ContactusForm() {
                     type="email"
                     id="email"
                     required
+                    autoComplete="email"
                     disabled={click}
                     onChange={(e) =>setEmail(e.target.value)}
                     value={email}
@@ -88,6 +91,7 @@ function ContactusForm() {
                     type="tel"
                     id="phone"
                     required
+                    autoComplete="tel"
                     disabled={click}
                     onChange={(e) => setPhone(e.target.value)}
                     value={phone}
@@ -100,6 +104,7 @@ function ContactusForm() {
                     type="text"
                     id="msg"
                     required
+                    autoComplete="off"
                     disabled={click}
                     onChange={(e) => setMsg(e.target.value)}
                     value={msg}
