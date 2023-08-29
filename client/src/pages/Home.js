@@ -4,11 +4,11 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
 // import { Link } from "@mui/material"
-import img1 from "../assets/images/Business-stratagy.webp"
-import img2 from "../assets/images/digi-trans.webp"
-import img3 from "../assets/images/experience.png"
-import img4 from "../assets/images/branding.png"
-import img5 from "../assets/images/hr.png"
+import img1 from "../assets/images/experienced-professionals.png"
+import img2 from "../assets/images/tailored-solutions.png"
+import img3 from "../assets/images/Client-Centric.png"
+import img4 from "../assets/images/Innovation.png"
+import img5 from "../assets/images/Results.png"
 import img6 from "../assets/images/dat.webp"
 // import img7 from "../assets/images/contactus.gif"
 import Card from "../components/Card"
