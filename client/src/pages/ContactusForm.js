@@ -9,9 +9,11 @@ function ContactusForm() {
     const[msg, setMsg] = useState("")
     const[error, setError] = useState(null)
     const[click, setClick] = useState(false)
+    const[send, setSend] = useState("Send")
 
     const handleSubmit = async (e) => {
         e.preventDefault()
+        setSend("Please Wait..")
         setClick(true)
 
         const details = {name, company_name, email, phone, msg}
@@ -38,6 +40,7 @@ function ContactusForm() {
             setMsg("")
             setError(null)
             setClick(false)
+            setSend("Send")
             console.log("details added")
         }
     }
@@ -112,7 +115,7 @@ function ContactusForm() {
                 </div>
 
                 <div className="send">
-                    <input type="submit" value="Send" id="submit" disabled={click}/>
+                    <input type="submit" value={send} id="submit" disabled={click}/>
                 </div>
             </form>
         </div>
