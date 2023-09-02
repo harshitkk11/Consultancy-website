@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import ContactusForm from './pages/ContactusForm';
+import About from './pages/About';
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
             <Route
             path='/contactus'
             element={<ContactusForm/>}
+            />
+            <Route
+            path='/about'
+            element={<About/>}
             />
           </Routes>
         </div>

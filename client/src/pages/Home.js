@@ -60,7 +60,7 @@ function Home() {
 {/* first container */}
 
                 <div className="first-container">
-                    <div className="heading">
+                    <div className="home-heading">
                         <h1>Welcome to {" "}
                             <ReactTyped 
                                 strings={["InnovateWeb", "Advisors"]} 
@@ -73,7 +73,7 @@ function Home() {
                     </div>
 
 
-                    <div className="about-home">
+                    <div className="home-intro">
                         <p>At InnovateWeb Advisors, we're not just another web consultancy. 
                             We are your partners in transforming your digital presence into a 
                             powerful tool that drives success. Our mission is to provide cutting-edge 
