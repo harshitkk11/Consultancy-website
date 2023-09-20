@@ -18,7 +18,7 @@ function ContactusForm() {
 
         const details = {name, company_name, email, phone, msg}
 
-        const response = await fetch('https://consultancy-website-backend.onrender.com/contactus', {
+        const response = await fetch('https://consultancy-website-nine.vercel.app//contactus', {
             method: 'POST',
             body: JSON.stringify(details),
             headers: {
